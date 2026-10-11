@@ -60,95 +60,99 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: oklch(0.99 0.015 350);
+  --foreground: oklch(0.22 0.035 350);
 
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.22 0.035 350);
 
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.22 0.035 350);
 
-  --primary: oklch(17.693% 0.00264 248.154);
-  --primary-foreground: oklch(0.985 0 0);
+  /* Primary pink */
+  --primary: #f6909d;
+  --primary-foreground: #ffffff;
 
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
+  /* Soft pink secondary */
+  --secondary: #ffd1dc;
+  --secondary-foreground: #713746;
 
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  --muted: #fff0f3;
+  --muted-foreground: #876b73;
 
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --accent: #ffd1dc;
+  --accent-foreground: #713746;
 
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
+  --destructive-foreground: #ffffff;
 
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #f2dce2;
+  --input: #f2dce2;
+  --ring: #f6909d;
 
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  /* Pink chart palette */
+  --chart-1: #f6909d;
+  --chart-2: #e05799;
+  --chart-3: #f7b8c5;
+  --chart-4: #c96b91;
+  --chart-5: #ffd1dc;
 
   --radius: 0.625rem;
 
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Sidebar */
+  --sidebar: #fff7f9;
+  --sidebar-foreground: #4a3039;
+  --sidebar-primary: #f6909d;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ffd1dc;
+  --sidebar-accent-foreground: #713746;
+  --sidebar-border: #f2dce2;
+  --sidebar-ring: #f6909d;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  --background: oklch(0.18 0.02 350);
+  --foreground: #fff0f3;
 
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
+  --card: oklch(0.22 0.025 350);
+  --card-foreground: #fff0f3;
 
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.22 0.025 350);
+  --popover-foreground: #fff0f3;
 
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
+  --primary: #f6909d;
+  --primary-foreground: #321b24;
 
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
+  --secondary: #593440;
+  --secondary-foreground: #fff0f3;
 
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
+  --muted: #392630;
+  --muted-foreground: #d4b4bf;
 
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --accent: #593440;
+  --accent-foreground: #fff0f3;
 
   --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
+  --destructive-foreground: #ffffff;
 
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --border: #553744;
+  --input: #553744;
+  --ring: #f6909d;
 
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --chart-1: #f6909d;
+  --chart-2: #e05799;
+  --chart-3: #f7b8c5;
+  --chart-4: #c96b91;
+  --chart-5: #ffd1dc;
 
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar: #241820;
+  --sidebar-foreground: #fff0f3;
+  --sidebar-primary: #f6909d;
+  --sidebar-primary-foreground: #321b24;
+  --sidebar-accent: #593440;
+  --sidebar-accent-foreground: #fff0f3;
+  --sidebar-border: #553744;
+  --sidebar-ring: #f6909d;
 }
 
 /* Whizboard custom card shadows */

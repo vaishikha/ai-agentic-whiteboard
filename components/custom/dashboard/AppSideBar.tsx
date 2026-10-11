@@ -22,7 +22,7 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader className="p-4">
         <div className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="Logo" width={46} height={40} />
+          <Image src="/logo.svg" alt="Logo" width={25} height={20} />
           <h2 className="text-lg font-semibold text-gray-800">Whizboard</h2>
         </div>
       </SidebarHeader>
